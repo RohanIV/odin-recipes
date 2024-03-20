@@ -1,4 +1,8 @@
-.title{
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title,.recipe-title{
     text-align: center;
     font-size: 60px;
     color: orange;
@@ -20,4 +24,54 @@
 
 a{
     color: black;  
+}
+
+.image-container,.ingredients-container,.steps-container{
+    /* border: 1px solid black; */
+    padding: 40px 30px 1px;
+    margin: 0px 450px;   
+    text-align: center;
+    background-color: #e2c7a4;
+}
+
+p{
+    padding-bottom: 20px;
+    font-size: 20px;   
+}
+.ingredients-container,.steps-container{
+    padding-top: 1px;
+}
+
+.ingredients-container{
+    list-style-position: inside;
+    background-color: #d3b894;   
+}
+h2{
+    color: rgb(161, 107, 5);
+    font-size: 45px;
+    text-decoration: underline;    
+}
+h3{
+    font-size: 25px;
+}
+ul,ol{
+    font-size: 20px;
+}
+
+.steps-container{
+    list-style-position: inside;
+}
+ol{
+   line-height: 1.8;
+}
+
+button{
+    padding: 10px 100px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-size: 25px;
+
 }
