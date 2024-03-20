@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.recipes-container{
+    text-align: center;
+}
+
+#recipes{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+    
+}
+
+a{
+    color: black;  
+}
